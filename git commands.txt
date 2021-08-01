@@ -1,0 +1,23 @@
+touch .gitignore   // add the name of the file that you do not want to push
+$ git config --global user.name Rishi
+$ git config --global user.email "sanskarsoven.2002@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status // working tree clean then go ahead
+git remote add origin (paste the SSH url of the repository)
+
+ssh-keygen -t ed25519 -C "sanskarsoven.2002@gmail.com"
+
+// give the storage location and press enter 
+// Your public key has been saved in (path) will get displayed
+
+cat (path)
+
+// then copy the ssh key 
+// create an SSH key with a title and the key copied 
+
+git push origin master
+
+
+
